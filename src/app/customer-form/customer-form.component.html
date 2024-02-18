@@ -1,0 +1,22 @@
+
+<form class="full-width" #myForm="ngForm">
+  <mat-form-field appearance="outline">
+    <mat-label>Customer Name</mat-label>
+    <input matInput placeholder="Enter Name" ngModel name="cname">
+  </mat-form-field>
+<br>
+  <mat-form-field appearance="outline">
+    <mat-label>Customer Email</mat-label>
+    <input matInput placeholder="Enter Email" ngModel name="cemail">
+  </mat-form-field>
+<br>
+  <mat-form-field appearance="outline">
+    <mat-label>Customer Gender</mat-label>
+    <input matInput placeholder="Enter Gender" ngModel name="gender">
+  </mat-form-field>
+  <br>
+  <div>
+    <button mat-raised-button color="primary" (click)="createCustomer(myForm.value)">Submit</button>
+    <button mat-raised-button color="accent" routerLink="/">Close</button>
+  </div>
+</form>

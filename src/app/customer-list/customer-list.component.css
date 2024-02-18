@@ -1,0 +1,14 @@
+table,tr,th,td{
+  margin: auto;
+  border: 3px solid rgb(83, 31, 31);
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+button{
+  border-radius: 40%;
+  gap: 10px;
+}

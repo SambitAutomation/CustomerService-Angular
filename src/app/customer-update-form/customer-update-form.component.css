@@ -1,0 +1,10 @@
+.full-width{
+  margin: auto;
+  align-items: center;
+  margin-left: 600px;
+  
+ }
+ 
+ mat-form-field input {
+   width: 201%;
+ }
